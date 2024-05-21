@@ -26,5 +26,4 @@ public class MongoDBConfiguration {
         return MongoClients.create(MongoClientSettings.builder()
                 .applyConnectionString(new ConnectionString(connectionString)).codecRegistry(codecRegistry).build());
     }
-
 }
